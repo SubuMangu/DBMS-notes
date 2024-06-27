@@ -69,7 +69,7 @@ rename employee to emp
 truncate table emp;
 select * from emp;
 ```
-<img src="Images/Screenshot 2024-06-27 131113.png" width="" height="">\
+<img src="images/Screenshot 2024-06-27 131113.png" width="" height="">\
 **Droping table**
 ``` sql
 drop table emp
@@ -111,7 +111,7 @@ insert into subu values (1,'subu');
 insert into subu values (1,'Mangu');
 select * from subu
 ```
-<img src="Images/Screenshot 2024-06-27 163933.png" width="" height="">
+<img src="images/Screenshot 2024-06-27 163933.png" width="" height="">
 
 ``` sql
 insert into subu values (1,'subu');
@@ -148,27 +148,27 @@ select unique id from subu
 ``` sql
 select distinct id from subu
 ```
-<img src="Images/Screenshot 2024-06-27 213055.png" width="" height="">
+<img src="images/Screenshot 2024-06-27 213055.png" width="" height="">
 
 
 4. Select Count
 - Suppose we have a table named as `sample`\
-<img src="Images/Screenshot 2024-06-27 214450.png" width="100" height="200">
+<img src="images/Screenshot 2024-06-27 214450.png" width="100" height="200">
 ``` sql
 Select count(name) from sample
 ```
 Output:\
-<img src="Images/Screenshot 2024-06-27 221742.png" width="130" height="">
+<img src="images/Screenshot 2024-06-27 221742.png" width="130" height="">
 
 ``` sql
 Select count(name) as count_name from sample
 ```
 Output:\
-<img src="Images/Screenshot 2024-06-27 222015.png" width="130" height="">
+<img src="images/Screenshot 2024-06-27 222015.png" width="130" height="">
 ``` sql
 Select count(*) as count_name from sample
 ```
-<img src="Images/Screenshot 2024-06-27 222256.png" width="130" height="">
+<img src="images/Screenshot 2024-06-27 222256.png" width="130" height="">
 
 -We can use condition as given below
 ``` sql
